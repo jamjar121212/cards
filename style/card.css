@@ -1,0 +1,50 @@
+.card-container {
+    width: 130px;
+    height: 220px;
+    font-size: 11px;
+}
+
+.card {
+    width: inherit;
+    height: inherit;
+
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    /* Some simple graphical improvements to the card */
+    background-color: hsl(0, 0%, 75%);
+    border-radius: 1em;
+    box-shadow: 0.2em 0.5em 2em grey;
+    box-sizing: border-box;
+}
+
+.small-text {
+    font-size: 11px;
+}
+
+.card-content {
+    /* Any content on the card should have a lighter grey background */
+    background-color: hsl(0, 0%, 85%);
+    border-radius: 0.3em;
+    padding: 2%;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-art {
+    height: 35%;
+}
+
+.card-details {
+    height: 25%;
+}
+
+.card-stats {
+    text-align: right;
+}

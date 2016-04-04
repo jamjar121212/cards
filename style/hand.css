@@ -1,0 +1,8 @@
+.hand {
+    width: 1024px;
+    height: 230px;
+    transform: translate(0px, 458px);
+    background-color: hsl(0, 0%, 65%);
+    display: flex;
+    justify-content: center;
+}
